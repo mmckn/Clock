@@ -1,0 +1,28 @@
+
+.clockHands{display:flex;
+}
+.clocks{
+	background-color:black;
+	margin-bottom:black;
+	transform-origin:100%;
+	height:5px;
+	width:50%;
+	margin:100px 0px;
+	transform:rotate(90deg);
+	position:absolute;
+
+    transition-timing-function: cubic-bezier(0.15, 1.26, 0.22, 1.33);
+}
+
+
+
+
+.clockface{
+	width:20%;
+	border:1px solid black;
+	border-radius: 50%;
+	height:200px;
+	width:200px;
+	position:absolute;
+}
+p{color:pink;}
